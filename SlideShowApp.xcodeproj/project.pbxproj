@@ -13,6 +13,10 @@
 		A468082C27F8738900A3D6C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A468082A27F8738900A3D6C1 /* Main.storyboard */; };
 		A468082E27F8738B00A3D6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A468082D27F8738B00A3D6C1 /* Assets.xcassets */; };
 		A468083127F8738B00A3D6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A468082F27F8738B00A3D6C1 /* LaunchScreen.storyboard */; };
+		A468085C27FB41A500A3D6C1 /* ohanami_walk.png in Resources */ = {isa = PBXBuildFile; fileRef = A468085827FB41A400A3D6C1 /* ohanami_walk.png */; };
+		A468085D27FB41A500A3D6C1 /* tree1_haru.png in Resources */ = {isa = PBXBuildFile; fileRef = A468085927FB41A400A3D6C1 /* tree1_haru.png */; };
+		A468085E27FB41A500A3D6C1 /* ohanami_group.png in Resources */ = {isa = PBXBuildFile; fileRef = A468085A27FB41A500A3D6C1 /* ohanami_group.png */; };
+		A468085F27FB41A500A3D6C1 /* yopparai_businessman.png in Resources */ = {isa = PBXBuildFile; fileRef = A468085B27FB41A500A3D6C1 /* yopparai_businessman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A468082D27F8738B00A3D6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A468083027F8738B00A3D6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A468083227F8738B00A3D6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A468085827FB41A400A3D6C1 /* ohanami_walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ohanami_walk.png; sourceTree = "<group>"; };
+		A468085927FB41A400A3D6C1 /* tree1_haru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree1_haru.png; sourceTree = "<group>"; };
+		A468085A27FB41A500A3D6C1 /* ohanami_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ohanami_group.png; sourceTree = "<group>"; };
+		A468085B27FB41A500A3D6C1 /* yopparai_businessman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yopparai_businessman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				A468082D27F8738B00A3D6C1 /* Assets.xcassets */,
 				A468082F27F8738B00A3D6C1 /* LaunchScreen.storyboard */,
 				A468083227F8738B00A3D6C1 /* Info.plist */,
+				A468085A27FB41A500A3D6C1 /* ohanami_group.png */,
+				A468085827FB41A400A3D6C1 /* ohanami_walk.png */,
+				A468085927FB41A400A3D6C1 /* tree1_haru.png */,
+				A468085B27FB41A500A3D6C1 /* yopparai_businessman.png */,
 			);
 			path = SlideShowApp;
 			sourceTree = "<group>";
@@ -127,6 +139,10 @@
 			files = (
 				A468083127F8738B00A3D6C1 /* LaunchScreen.storyboard in Resources */,
 				A468082E27F8738B00A3D6C1 /* Assets.xcassets in Resources */,
+				A468085C27FB41A500A3D6C1 /* ohanami_walk.png in Resources */,
+				A468085F27FB41A500A3D6C1 /* yopparai_businessman.png in Resources */,
+				A468085E27FB41A500A3D6C1 /* ohanami_group.png in Resources */,
+				A468085D27FB41A500A3D6C1 /* tree1_haru.png in Resources */,
 				A468082C27F8738900A3D6C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
