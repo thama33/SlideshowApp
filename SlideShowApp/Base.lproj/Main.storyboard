@@ -29,22 +29,22 @@
                                     <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qdy-r7-cuZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJc-Y3-7l6">
-                                <rect key="frame" x="297" y="433" width="53" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="再生"/>
-                                <connections>
-                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o30-M6-Rc8"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEj-PS-zh5">
                                 <rect key="frame" x="94" y="433" width="53" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="進む"/>
                                 <connections>
-                                    <action selector="fowardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RVM-gS-iaR"/>
+                                    <action selector="fowardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8hl-jt-VBF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zR4-9z-Vsp">
+                                <rect key="frame" x="287" y="433" width="53" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="再生"/>
+                                <connections>
+                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SHl-yW-K3U"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,7 +52,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="backButtonText" destination="8FH-Vh-VUe" id="85g-PJ-T2R"/>
+                        <outlet property="fowardButtonText" destination="uEj-PS-zh5" id="JF8-Xr-o1n"/>
                         <outlet property="imageView" destination="TjQ-TR-qpn" id="G4n-Oo-UCj"/>
+                        <outlet property="playButtonText" destination="zR4-9z-Vsp" id="HWt-SI-Vdh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
