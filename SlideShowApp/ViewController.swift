@@ -62,12 +62,17 @@ class ViewController: UIViewController {
         
             self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(slideShow(_:)), userInfo: nil, repeats: true)
             playButtonText.setTitle("停止", for: .normal)
-            self.fowardButtonText.setTitleColor(UIColor.white, for: .normal)
+            
+//            self.fowardButtonText.setTitleColor(UIColor.white, for: .normal)
+            self.fowardButtonText.setTitle("--", for: .normal)
+            self.backButtonText.setTitle("--", for: .normal)
             
         }else{
             self.timer.invalidate()
             self.timer = nil
             playButtonText.setTitle("再生", for: .normal)
+            self.fowardButtonText.setTitle("進む", for: .normal)
+            self.backButtonText.setTitle("戻る", for: .normal)
         }
         
     }

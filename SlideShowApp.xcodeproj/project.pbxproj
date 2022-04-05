@@ -17,6 +17,7 @@
 		A468085D27FB41A500A3D6C1 /* tree1_haru.png in Resources */ = {isa = PBXBuildFile; fileRef = A468085927FB41A400A3D6C1 /* tree1_haru.png */; };
 		A468085E27FB41A500A3D6C1 /* ohanami_group.png in Resources */ = {isa = PBXBuildFile; fileRef = A468085A27FB41A500A3D6C1 /* ohanami_group.png */; };
 		A468085F27FB41A500A3D6C1 /* yopparai_businessman.png in Resources */ = {isa = PBXBuildFile; fileRef = A468085B27FB41A500A3D6C1 /* yopparai_businessman.png */; };
+		A468086127FD059D00A3D6C1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A468086027FD059D00A3D6C1 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A468085927FB41A400A3D6C1 /* tree1_haru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree1_haru.png; sourceTree = "<group>"; };
 		A468085A27FB41A500A3D6C1 /* ohanami_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ohanami_group.png; sourceTree = "<group>"; };
 		A468085B27FB41A500A3D6C1 /* yopparai_businessman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yopparai_businessman.png; sourceTree = "<group>"; };
+		A468086027FD059D00A3D6C1 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				A468082427F8738900A3D6C1 /* AppDelegate.swift */,
 				A468082627F8738900A3D6C1 /* SceneDelegate.swift */,
 				A468082827F8738900A3D6C1 /* ViewController.swift */,
+				A468086027FD059D00A3D6C1 /* ImageViewController.swift */,
 				A468082A27F8738900A3D6C1 /* Main.storyboard */,
 				A468082D27F8738B00A3D6C1 /* Assets.xcassets */,
 				A468082F27F8738B00A3D6C1 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 			files = (
 				A468082927F8738900A3D6C1 /* ViewController.swift in Sources */,
 				A468082527F8738900A3D6C1 /* AppDelegate.swift in Sources */,
+				A468086127FD059D00A3D6C1 /* ImageViewController.swift in Sources */,
 				A468082727F8738900A3D6C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
