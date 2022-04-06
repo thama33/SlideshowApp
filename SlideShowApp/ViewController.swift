@@ -100,6 +100,18 @@ class ViewController: UIViewController {
         
     }
     
+//    @IBAction func tap(_ sender: Any) {
+//
+//        if self.timer != nil{
+//            self.timer.invalidate()
+//            self.timer = nil
+//            playButtonText.setTitle("再生", for: .normal)
+//            self.fowardButtonText.setTitle("進む", for: .normal)
+//            self.backButtonText.setTitle("戻る", for: .normal)
+//
+//        }
+        
+//    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -107,6 +119,11 @@ class ViewController: UIViewController {
     
         
         imageView.image = image1
+        
+        
+//        playButtonText.layer.backgroundColor = UIColor.blue.cgColor
+//        playButtonText.layer.shadowOffset = CGSize(width: 3, height:  3)
+//        playButtonText.layer.shadowColor = UIColor.gray.cgColor
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -114,6 +131,15 @@ class ViewController: UIViewController {
         
         imageViewController.getImage = gazou[junnjo]
         
+        
+        if self.timer != nil{
+            self.timer.invalidate()
+            self.timer = nil
+            playButtonText.setTitle("再生", for: .normal)
+            self.fowardButtonText.setTitle("進む", for: .normal)
+            self.backButtonText.setTitle("戻る", for: .normal)
+        }
+
     }
 
 }
