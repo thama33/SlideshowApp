@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     
     var junnjo = 0
     
+    @IBAction func unwind(_ segue: UIStoryboardSegue){
+        
+    }
     
     @IBOutlet weak var fowardButtonText: UIButton!
     @IBAction func fowardButton(_ sender: Any) {
@@ -106,6 +109,12 @@ class ViewController: UIViewController {
         imageView.image = image1
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let imageViewController:ImageViewController = segue.destination as! ImageViewController
+        
+        imageViewController.getImage = gazou[junnjo]
+        
+    }
 
 }
 
